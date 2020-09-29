@@ -1,7 +1,7 @@
 function getParameterDefinitions () {
   return [
     {name: 'quality', type: 'choice', caption: 'Quality:', values: [0, 1], captions: ['Draft', 'High'], initial: 0},
-    {name: 'axis', type: 'checkbox', checked: true, caption: 'Axis (off for prod!)'},
+    {name: 'axis', type: 'checkbox', checked: false, caption: 'Axis (off for prod!)'},
     {name: 'shape', type: 'choice', caption: 'Shape:', values: ['X', 'T', 'L'], captions: ['X-joint', 'T-joint', 'L-joint'], initial: 'T'},
     {name: 'thickness', caption: 'Thickness:', type: 'float', initial: 1.2},
     {name: 'height', caption: 'Height:', type: 'float', initial: 20, step: 0.1},
